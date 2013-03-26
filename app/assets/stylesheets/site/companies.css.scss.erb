@@ -1,15 +1,23 @@
 .companies {
-    min-height: 90px;
+    min-height: 162px;
     border-bottom: 1px solid #8b1919;
     margin-bottom: 20px;
 
+    .carousel-control {
+        top: 70px;
+    }
+
     .company-link {
         margin: 0 auto 10px auto;
-        height: 76px;
-        width: 396px;
+        height: 159px;
+        width: 194px;
         display: block;
-        background-image: url(<%= asset_path('companies/bg.png') %>);
+        background-image: url(<%= asset_path('company-bg-new.png') %>);
         position: relative;
+
+        &:hover {
+          background-image: url(<%= asset_path('company-bg-new-active.png') %>);
+        }
 
         i {
             display: block;
@@ -18,8 +26,8 @@
         .mdm-group {
             background: url(<%= asset_path('companies/mdmgroup.png') %>) no-repeat;
             position: absolute;
-            top: 15px;
-            left: 140px;
+            top: 45px;
+            left: 40px;
             width: 116px;
             height: 47px;
         }
@@ -27,8 +35,8 @@
         .cryspi {
             background: url(<%= asset_path('companies/cryspi.png') %>) no-repeat;
             position: absolute;
-            top: 15px;
-            left: 122px;
+            top: 45px;
+            left: 22px;
             width: 153px;
             height: 42px;
         }
@@ -36,8 +44,8 @@
         .indexeventus {
             background: url(<%= asset_path('companies/indexiventus.png') %>) no-repeat;
             position: absolute;
-            top: 15px;
-            left: 122px;
+            top: 45px;
+            left: 20px;
             width: 165px;
             height: 35px;
         }
@@ -45,8 +53,8 @@
         .vitrina {
             background: url(<%= asset_path('companies/vitrina.png') %>) no-repeat;
             position: absolute;
-            top: 7px;
-            left: 170px;
+            top: 35px;
+            left: 70px;
             width: 65px;
             height: 63px;
         }
