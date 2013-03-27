@@ -1,50 +1,71 @@
+.production-title {
+  background-color: #fdfafa;
+  padding-top: 9px;
+  height: 33px;
+  text-align: center;
+  font-size: 20px;
+  color: #1e3a8e;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 15px;
+}
+
 .production {
-  min-height: 330px;
+  min-height: 310px;
 
-  .span3 {
-    &:first-child {
-      margin-left: 55px;
+  .item {
+    margin-bottom: 10px;
+    height: 80px;
+    background-color: #ba3737;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+
+    cursor: pointer;
+
+    p {
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    &.active {
+      background-color: #2a48a3;
     }
   }
 
-  .span26 {
-    width: 215px;
+  [class*="span"] {
+    margin-left: 20px;
   }
 
-  .span25 {
-    width: 210px;
+  .span2 {
+    width: 175px;
   }
 
-  .square img {
-    padding-top: 60px;
-  }
 
-  .product {
-    height: 305px;
-    position: relative;
+  .subitems {
 
-
-    & > a {
+    p.default-text {
       text-align: center;
-      width: 100%;
-      position: absolute;
-      bottom: 25px;
-      display: block;
-      color: #8b1919;
+      font-size: 16px;
+      margin-top: 65px;
+
+      color: red;
+      font-style: italic;
     }
 
-    .subcategories {
-      width: 100%;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      text-align: center;
+    ul {
+      display: none;
+      font-size: 16px;
+      color: #0b2266;
+      font-style: italic;
+
       li {
-        display: inline;
-        a {
-          color: #354985;
-          font-size: 14px;
-        }
+        line-height: 28px;
       }
     }
   }

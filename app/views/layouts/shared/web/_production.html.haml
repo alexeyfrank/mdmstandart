@@ -1,41 +1,54 @@
+.production-title
+  Весь спектр торгового оборудования
 .container.production
   .row
-    .span3.span26.product.square
-      = image_tag asset_path('products/11.png')
-      = link_to 'Технологическое оборудование', '#', class: 'category'
-      %ul.subcategories
-        %li= link_to 'Octava', '#'
-        %li
-          |
-        %li= link_to 'Gamma-2', '#'
-        %li
-          |
-        %li= link_to 'Symphony', '#'
-    .span2.span25.product
-      = image_tag asset_path('products/22.png')
-      = link_to 'Стеллажное оборудование', '#', class: 'category'
-      %ul.subcategories
-        %li= link_to 'Русь', '#'
-        %li
-          |
-        %li= link_to 'Витрина', '#'
-        %li
-          |
-        %li= link_to 'Белорусь', '#'
-    .span2.span25.product.square
-      = image_tag asset_path('products/33.png')
-      = link_to 'Торговая мебель', '#', class: 'category'
-      %ul.subcategories
-        %li= link_to 'Октава', '#'
-        %li
-          |
-        %li= link_to 'Wiko', '#'
-        %li
-          |
-        %li= link_to 'Селена', '#'
-    .span3.span25.product.square
-      = image_tag asset_path('products/44.png')
-      = link_to 'POSM и рекламные материалы', '#'
-    .span2.product
-      = image_tag asset_path('products/55.png')
-      = link_to 'Корзинки и тележки', '#'
+    .span4
+      .row
+        .item.span4(data-item="commercical-furniture")
+          %pТорговая мебель
+        .item.span2(data-item="reshetki")
+          %p Экономпанели и решетки
+        .item.span2(data-item="telezhki")
+          %p Тележки и корзины
+        .item.span2(data-item="seasons")
+          %p Сезонное оформление
+        .item.span2(data-item="manekens")
+          %p Манекены
+    .span4.subitems
+      %p.default-text
+        Промо текст о том, как происходит процесс заказа.
+        Нужно указать, что большинство продукции представленной у партнеров находится у нас на складе в Ульяновске.
+        Быстрая консультация 79 55 95
+      %ul(data-item-link="commercical-furniture")
+        %li= link_to 'Торговая мебель', '#'
+      %ul(data-item-link="reshetki")
+        %li= link_to 'Экономпанели и решетки', '#'
+      %ul(data-item-link="telezhki")
+        %li= link_to 'Тележки и корзины', '#'
+      %ul(data-item-link="seazons")
+        %li= link_to 'Сезонное оформление', '#'
+      %ul(data-item-link="manekens")
+        %li= link_to 'Манекены', '#'
+
+      %ul(data-item-link="commercical-systems")
+        %li= link_to 'Торговые системы', '#'
+      %ul(data-item-link="accessories")
+        %li= link_to 'Аксессуары для магазинов', '#'
+      %ul(data-item-link="security")
+        %li= link_to 'Ограждения и охранные системы', '#'
+      %ul(data-item-link="additional")
+        %li= link_to 'Дополнительное оборудование', '#'
+      %ul(data-item-link="stellazhi")
+        %li= link_to 'Торговые стеллажи металлические горки накопители и стойки', '#'
+    .span4
+      .row
+        .item.span4(data-item="commercical-systems")
+          %p Торговые системы
+        .item.span2(data-item="accessories")
+          %p Аксессуары для магазинов
+        .item.span2(data-item="security")
+          %p Ограждения и охранные системы
+        .item.span2(data-item="additional")
+          %p Дополнительное оборудование
+        .item.span2(data-item="stellazhi")
+          %p Торговые стеллажи металлические горки накопители и стойки
