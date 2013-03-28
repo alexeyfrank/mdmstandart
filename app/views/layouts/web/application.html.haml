@@ -21,11 +21,16 @@
 
     .container.content
       .row
-        .span8
-          = bootstrap_flash
-          = yield
-        .span4
-          = render 'layouts/shared/web/hot'
+        - if @page && @page.slug.eql?('main')
+          .span8
+            = bootstrap_flash
+            = yield
+          .span4
+            = render 'layouts/shared/web/hot'
+        - else
+          .span12
+            = bootstrap_flash
+            = yield
 
     = render 'layouts/shared/web/footer'
     = render 'layouts/shared/web/footer_company'
