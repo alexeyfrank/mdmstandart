@@ -31,3 +31,5 @@ class ProductionMenu
     $('.default-text').show()
 
 production_menu = new ProductionMenu()
+
+$('.carousel').carousel()
