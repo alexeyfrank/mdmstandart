@@ -21,9 +21,11 @@
 
     .container.content
       .row
-        .span12
+        .span8
           = bootstrap_flash
           = yield
+        .span4
+          = render 'layouts/shared/web/hot'
 
     = render 'layouts/shared/web/footer'
     = render 'layouts/shared/web/footer_company'
