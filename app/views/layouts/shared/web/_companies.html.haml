@@ -1,11 +1,8 @@
 .container.companies
   .row
-    %h2
-      Наши партнеры
+    %h2 Наши партнеры
     #myCarousel.carousel.slide
-      .carouser-inner
-        %a(data-slide="prev" href="#myCarousel" class="left carousel-control") ‹
-        %a(data-slide="next" href="#myCarousel" class="right carousel-control") ›
+      .carousel-inner
         .item.active
           .span2.offset1
             = link_to 'http://mdm-group.ru/', class: 'company-link' do
@@ -19,3 +16,18 @@
           .span3
             = link_to 'http://po-vitrina.ru/', class: 'company-link' do
               %i.vitrina
+        .item
+          .span2.offset1
+            = link_to 'http://mdm-group.ru/', class: 'company-link' do
+              %i.mdm-group
+          .span3
+            = link_to 'http://po-vitrina.ru/', class: 'company-link' do
+              %i.vitrina
+          .span2
+            = link_to 'http://www.indexeventus.ru/', class: 'company-link' do
+              %i.indexeventus
+          .span3
+            = link_to 'http://www.cryspi.ru/', class: 'company-link' do
+              %i.cryspi
+      %a(data-slide="prev" href="#myCarousel" class="left carousel-control") ‹
+      %a(data-slide="next" href="#myCarousel" class="right carousel-control") ›
