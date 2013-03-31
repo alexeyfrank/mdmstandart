@@ -8,3 +8,5 @@ class ActiveSupport::TestCase
   fixtures :all
 
 end
+
+include ActionDispatch::TestProcess

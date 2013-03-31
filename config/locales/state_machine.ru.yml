@@ -9,6 +9,14 @@ ru:
           events:
             activate: 'Активировать'
             deactivate: 'Деактивировать'
+      manager:
+        state:
+          states:
+            active: 'Активен'
+            inactive: 'Неактивен'
+          events:
+            activate: 'Активировать'
+            deactivate: 'Деактивировать'
       page:
         state:
           states:

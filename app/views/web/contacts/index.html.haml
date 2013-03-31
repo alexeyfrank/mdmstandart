@@ -4,51 +4,22 @@
 .span7
   .managers
     %h3 Наши менеджеры
-    .manager
-      .row
-        .photo.span2= image_tag asset_path('person.jpg')
-        .span5
-          %h4.full_name Иванов Сигизмунд Аркадьевич
-          .contacts
-            %p
-              %strong Телефон:
-              8 927 123 45 67
-            %p
-              %strong E-mail:
-              sigizmund@mdmstandart.ru
-            %p
-              %strong Регион работы:
-              Ульяновская область
-    .manager
-      .row
-        .photo.span2= image_tag asset_path('person.jpg')
-        .span5
-          %h4.full_name Иванов Сигизмунд Аркадьевич
-          .contacts
-            %p
-              %strong Телефон:
-              8 927 123 45 67
-            %p
-              %strong E-mail:
-              sigizmund@mdmstandart.ru
-            %p
-              %strong Регион работы:
-              Ульяновская область
-    .manager
-      .row
-        .photo.span2= image_tag asset_path('person.jpg')
-        .span5
-          %h4.full_name Иванов Сигизмунд Аркадьевич
-          .contacts
-            %p
-              %strong Телефон:
-              8 927 123 45 67
-            %p
-              %strong E-mail:
-              sigizmund@mdmstandart.ru
-            %p
-              %strong Регион работы:
-              Ульяновская область
+    - @managers.each do |m|
+      .manager
+        .row
+          .photo.span2= image_tag m.photo.url
+          .span5
+            %h4.full_name= m.full_name
+            .contacts
+              %p
+                %strong Телефон:
+                #{m.phone}
+              %p
+                %strong E-mail:
+                #{m.email}
+              %p
+                %strong Регион работы:
+                #{m.region}
 .span4
   .contacts
     %h3 О нас

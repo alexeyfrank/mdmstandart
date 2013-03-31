@@ -1,7 +1,5 @@
 MdmStandart::Application.routes.draw do
 
-  get "contacts/index"
-
   mount Ckeditor::Engine => '/ckeditor'
 
   scope module: :web do
@@ -17,6 +15,7 @@ MdmStandart::Application.routes.draw do
       resources :users
       resources :pages
       resources :questions
+      resources :managers
     end
   end
 end

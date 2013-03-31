@@ -3,6 +3,7 @@ ru:
     models:
       user: 'пользователя'
       page: 'страницу'
+      manager: 'менеджера'
     attributes:
       user:
         email: 'E-mail'
@@ -16,6 +17,15 @@ ru:
         title: 'Название'
         slug: 'Ссылка'
         content: 'Содержимое'
+        state: 'Состояние'
+        created_at: 'Дата создания'
+      manager:
+        state_event: 'Действие'
+        full_name: 'ФИО'
+        email: 'E-mail'
+        phone: 'Телефон'
+        photo: 'Фото'
+        region: 'Регион работы'
         state: 'Состояние'
         created_at: 'Дата создания'
       question:
