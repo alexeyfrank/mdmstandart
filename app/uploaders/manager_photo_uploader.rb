@@ -10,7 +10,7 @@ class ManagerPhotoUploader < CarrierWave::Uploader::Base
   end
 
   # Process files as they are uploaded:
-  process :resize_to_fit => [200, 235]
+  process :resize_to_fill => [200, 235]
 
   def extension_white_list
      %w(jpg jpeg gif png)

@@ -9,3 +9,13 @@ configus.pages.each do |value|
   page.save
   page.activate
 end
+
+# managers
+managers = [
+    {
+        photo_path: '',
+        email: '',
+        region: '',
+
+    }
+]
