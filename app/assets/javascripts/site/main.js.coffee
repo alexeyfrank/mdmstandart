@@ -32,4 +32,5 @@ class ProductionMenu
 
 production_menu = new ProductionMenu()
 
-$('.carousel').carousel()
+$('.carousel').carousel
+  interval: 25000
