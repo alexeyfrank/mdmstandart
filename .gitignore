@@ -20,6 +20,7 @@
 #ignore assets
 /public/assets
 /public/uploads
+/public/system
 
 #ignore database.yml
 /config/database.yml
