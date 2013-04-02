@@ -6,7 +6,7 @@ class ManagerPhotoUploader < CarrierWave::Uploader::Base
   storage :file
 
   def store_dir
-    "uploads/managers/#{mounted_as}/#{model.id}"
+    "system/uploads/managers/#{mounted_as}/#{model.id}"
   end
 
   # Process files as they are uploaded:
