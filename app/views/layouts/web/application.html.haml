@@ -12,6 +12,9 @@
 
     %link(href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet')
     = stylesheet_link_tag "site", :media => "all"
+    /[if lt IE 9]
+      = stylesheet_link_tag 'ie/ie', media: 'all'
+
     %link(href="favicon.ico" rel="shortcut icon")
 
   %body
