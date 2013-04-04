@@ -1,7 +1,7 @@
 .page-header
   %h1 Контакты
 
-.span7
+.span6
   .managers
     %h3 Наши менеджеры
     -#- @managers.each do |m|
@@ -24,7 +24,7 @@
     .manager
       .row
         .photo.span2= image_tag asset_path('managers/shemyakin.png')
-        .span5
+        .span4
           %h4.full_name Шемякин Сергей
           %p
             %strong Региональный менеджер
@@ -44,7 +44,7 @@
     .manager
       .row
         .photo.span2= image_tag asset_path('managers/zaharichev.png')
-        .span5
+        .span4
           %h4.full_name Захарычев Алексей
           %p
             %strong Региональный менеджер
@@ -64,7 +64,7 @@
     .manager
       .row
         .photo.span2= image_tag asset_path('managers/zvakina.png')
-        .span5
+        .span4
           %h4.full_name Жвакина Александра
           %p
             %strong Региональный менеджер
@@ -84,7 +84,7 @@
     .manager
       .row
         .photo.span2= image_tag asset_path('managers/rusakova.png')
-        .span5
+        .span4
           %h4.full_name Русакова Ольга
           %p
             %strong Персональный менеджер
@@ -102,7 +102,7 @@
               %strong WWW:
               =link_to 'mdmstandart.ru', 'http://mdmstandart.ru/'
 
-.span4
+.span5
   .contacts
     %h3 О нас
     %p
@@ -117,3 +117,5 @@
     %p
       %strong Время работы:
       9.00 — 18.00 (по рабочим дням)
+
+    = render 'map'
