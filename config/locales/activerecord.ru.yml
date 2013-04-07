@@ -4,6 +4,7 @@ ru:
       user: 'пользователя'
       page: 'страницу'
       manager: 'менеджера'
+      client: 'клиента'
     attributes:
       user:
         email: 'E-mail'
@@ -33,6 +34,17 @@ ru:
         email: 'E-mail'
         phone: 'Телефон'
         content: 'Текст сообщения'
+        created_at: 'Дата создания'
+      client:
+        name: 'Название'
+        site: 'Ссылка на сайт'
+        logo: 'Логотип'
+        state: 'Состояние'
+        state_event: 'Действие'
+        created_at: 'Дата создания'
+      client/image:
+        title: 'Название'
+        image: 'Логотип'
         created_at: 'Дата создания'
     errors:
       models:
