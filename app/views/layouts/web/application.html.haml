@@ -24,7 +24,7 @@
 
     .container.content
       .row
-        - if @page && @page.slug.eql?('main')
+        - if @page && (@page.slug.eql?('main') || @page.slug.eql?('about'))
           .span8
             = bootstrap_flash
             = yield
