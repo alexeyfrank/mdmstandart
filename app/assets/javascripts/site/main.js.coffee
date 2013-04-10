@@ -24,7 +24,7 @@ class ProductionMenu
       $(".subitems ul[data-item-link='#{data_item}']").show()
       $('.default-text').hide()
 
-hideItem: (item) ->
+  hideItem: (item) ->
     $(item).removeClass 'active'
     data_item = $(item).data('item')
     $(".subitems ul[data-item-link='#{data_item}']").hide()
@@ -35,4 +35,4 @@ production_menu = new ProductionMenu()
 $('.carousel').carousel
   interval: 25000
 
-$('input[type=text], textarea').placeholder()
+$('input, textarea').placeholder()
