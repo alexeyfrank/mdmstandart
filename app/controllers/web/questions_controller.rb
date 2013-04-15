@@ -7,6 +7,7 @@ class Web::QuestionsController < Web::ApplicationController
   def create
     @question = Web::QuestionEditType.new params[:question]
     if @question.save
+      QuestionMailer.new_question(@question).deliver
       flash_success
       redirect_to params[:from] || root_path
     else
