@@ -2,7 +2,7 @@
 Configus.build Rails.env do
 
   env :production do
-    admin_email 'alexeyfrank@gmail.com'
+    admin_email 'snb.2010@yandex.ru'
 
     pages_hash = {
         main: 'Главная страница',
