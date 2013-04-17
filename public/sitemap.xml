@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>http://mdmstandart.ru/</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/pages/about</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/contacts</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/questions/new</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/9</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/8</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/7</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/6</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/5</loc>
+  </url>
+  <url>
+    <loc>http://mdmstandart.ru/clients/4</loc>
+  </url>
+</urlset>
