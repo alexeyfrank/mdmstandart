@@ -20,6 +20,12 @@ ru:
         content: 'Содержимое'
         state: 'Состояние'
         created_at: 'Дата создания'
+      article:
+        state_event: 'Действие'
+        title: 'Название'
+        content: 'Содержимое'
+        state: 'Состояние'
+        created_at: 'Дата создания'
       manager:
         state_event: 'Действие'
         full_name: 'ФИО'

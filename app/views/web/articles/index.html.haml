@@ -1,0 +1,6 @@
+%h1 Статьи
+
+.media.articles
+  - @articles.each do |article|
+    .media-body
+      %h2.media-heading= link_to article.title, article

@@ -1,3 +1,11 @@
 ---
 ru:
+  web:
+    admin:
+      articles:
+        index:
+          title: ''
+          search: ''
+          new: ''
+          actions: ''
   success: ''
