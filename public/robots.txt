@@ -4,4 +4,5 @@ Allow: /pages/about
 Allow: /contacts
 Allow: /questions/new
 Allow: /clients
+Allow: /articles
 Disallow: /admin
