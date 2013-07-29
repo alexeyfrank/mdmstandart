@@ -33,6 +33,7 @@ gem 'jquery-rails'
 gem 'bcrypt-ruby' #, '~> 3.0.0'
 gem 'jbuilder'
 
+gem 'newrelic_rpm'
 
 group :assets do
   gem 'sass-rails' #,   '~> 3.2.3'
@@ -55,5 +56,5 @@ group :development do
   gem 'capistrano-ext'
   gem 'capistrano_colors'
   gem 'capi'
-  gem 'capistrano-unicorn', require: false
+  #gem 'capistrano-unicorn', require: false
 end
